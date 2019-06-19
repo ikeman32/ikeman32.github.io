@@ -1,0 +1,58 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    background-image: url(images/U.S.-Constitution-Background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.container {
+    height: 100%;
+    top: 0;
+}
+
+.head {
+    position: relative;
+    margin: 10px;
+}
+
+.head>textarea {
+    background: rgba(168, 168, 168, 0.7);
+    border: none;
+    color: white;
+}
+
+.pwArea {
+    position: relative;
+}
+
+#passWord {
+    padding: 5px;
+}
+
+.textArea {
+    position: relative;
+    margin: 10px;
+}
+
+.buttonArea {
+    position: relative;
+    margin: 10px;
+}
+
+button {
+    background-color: blue;
+    border: none;
+    color: whitesmoke;
+    padding: 5px;
+    margin: 5px;
+}
+
+label {
+    color: black;
+    background: white;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+}
