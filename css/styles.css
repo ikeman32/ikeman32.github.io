@@ -2,7 +2,7 @@ html,
 body {
     height: 100%;
     margin: 0;
-    background-image: url(images/U.S.-Constitution-Background.png);
+    background-image: url(/images/U.S.-Constitution-Background.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
