@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/contact.css">
+
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+    <title>Contact Form</title>
+</head>
+
+<body>
+
+    <div class='container contact'>
+        <header>
+            <nav>
+                <a href="#">Home</a>
+            </nav>
+        </header>
+
+        <section class="form">
+            <div class="contact-form">
+                <form action="php/send-form.php" method="post">
+
+                    <div>
+                        First Name: <input id="fn" type="text" name="fname" maxlength="35">
+                    </div>
+                    <div>
+                        Last Name: <input id="ln" type="text" name="lname" maxlength="35">
+                    </div>
+                    <div>
+                        Email: <input type="email" name="email" id="email" maxlength="50">
+                    </div>
+                    <div id="msg-area">
+                        <textarea name="message" id="msg" cols="30" rows="10" maxlength="1000"></textarea>
+                    </div>
+                    <div id="btns">
+                        <a href="php/send-form.php"><input id="submit" type="submit" value="submit"></a>
+                        <input id="reset" type="reset" value="reset">
+                    </div>
+                </form>
+
+            </div>
+        </section>
+
+        <footer>
+            <p>Designed by: David Isakson</p>
+            <p>&copy; 2019 All Right Reserved!</p>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
