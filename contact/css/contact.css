@@ -381,6 +381,7 @@ footer p {
     font-size: 1.6rem;
     background-color: blue;
     color: antiquewhite;
+    display: none;
 }
 
 .contact .form .contact-form form #btns #submit:hover {
