@@ -1,85 +1,96 @@
 /*Animations
 Code by W3 Schools modified to let the developer set the duration
 */
+
 @keyframes w3-spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(359deg);
-  }
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(359deg);
+    }
 }
+
 @keyframes fading {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
+
 @keyframes opac {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
+
 @keyframes animatetop {
-  from {
-    top: -300px;
-    opacity: 0;
-  }
-  to {
-    top: 0;
-    opacity: 1;
-  }
+    from {
+        top: -300px;
+        opacity: 0;
+    }
+    to {
+        top: 0;
+        opacity: 1;
+    }
 }
+
 @keyframes animateleft {
-  from {
-    left: -300px;
-    opacity: 0;
-  }
-  to {
-    left: 0;
-    opacity: 1;
-  }
+    from {
+        left: -300px;
+        opacity: 0;
+    }
+    to {
+        left: 0;
+        opacity: 1;
+    }
 }
+
 @keyframes animateright {
-  from {
-    right: -300px;
-    opacity: 0;
-  }
-  to {
-    right: 0;
-    opacity: 1;
-  }
+    from {
+        right: -300px;
+        opacity: 0;
+    }
+    to {
+        right: 0;
+        opacity: 1;
+    }
 }
+
 @keyframes animatebottom {
-  from {
-    bottom: -300px;
-    opacity: 0;
-  }
-  to {
-    bottom: 0;
-    opacity: 1;
-  }
+    from {
+        bottom: -300px;
+        opacity: 0;
+    }
+    to {
+        bottom: 0;
+        opacity: 1;
+    }
 }
+
 @keyframes animatezoom {
-  from {
-    transform: scale(0);
-  }
-  to {
-    transform: scale(1);
-  }
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
 }
+
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
+
 html,
 body,
 div,
@@ -161,14 +172,17 @@ time,
 mark,
 audio,
 video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
+
 /* HTML5 display-role reset for older browsers */
+
 article,
 aside,
 details,
@@ -180,174 +194,209 @@ hgroup,
 menu,
 nav,
 section {
-  display: block;
+    display: block;
 }
+
 body {
-  line-height: 1;
+    line-height: 1;
 }
+
 ol,
 ul {
-  list-style: none;
+    list-style: none;
 }
+
 blockquote,
 q {
-  quotes: none;
+    quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
-  content: none;
+    content: '';
+    content: none;
 }
+
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
+
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
 html {
-  font-size: 62.5%;
+    font-size: 62.5%;
 }
+
 html,
 body {
-  font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
+
 h1,
 h2,
 h3,
 h4,
 h5 {
-  font-family: 'Indie Flower', cursive;
+    font-family: 'Indie Flower', cursive;
 }
+
 h1 {
-  font-size: 4rem;
+    font-size: 4rem;
 }
+
 h2 {
-  font-size: 3.2rem;
-  padding-bottom: 10px;
+    font-size: 3.2rem;
+    padding-bottom: 10px;
 }
+
 h4 {
-  font-size: 2.5rem;
-  padding-bottom: 10px;
+    font-size: 2.5rem;
+    padding-bottom: 10px;
 }
+
 p {
-  line-height: 1.5;
-  font-size: 1.6rem;
-  padding-bottom: 10px;
+    line-height: 1.5;
+    font-size: 1.6rem;
+    padding-bottom: 10px;
 }
+
 img {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
+
 .container {
-  max-width: 800px;
-  width: 100%;
-  margin: 0 auto;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
 }
+
 .contact header {
-  background-color: #34495e;
-  border-radius: 0 30%;
+    background-color: #34495e;
+    border-radius: 0 30%;
 }
+
 .contact header nav {
-  padding: 2% 2%;
-  display: flex;
-  justify-content: center;
+    padding: 2% 2%;
+    display: flex;
+    justify-content: center;
 }
+
 .contact header nav a {
-  text-decoration: none;
-  font-size: 1.8rem;
-  color: aliceblue;
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: aliceblue;
 }
+
 .contact header nav a:hover {
-  color: crimson;
-  background-color: aliceblue;
-  border-radius: 30% 0;
+    color: crimson;
+    background-color: aliceblue;
+    border-radius: 30% 0;
 }
+
 footer {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 2%;
-  background-color: #34495e;
-  border-radius: 30% 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2%;
+    background-color: #34495e;
+    border-radius: 30% 0;
 }
+
 footer p {
-  font-size: 1.8rem;
-  color: aliceblue;
+    font-size: 1.8rem;
+    color: aliceblue;
 }
+
 .contact {
-  width: 100%;
-  background-color: #a29bfe;
-  margin: 2% auto;
-  animation: opac 5s;
+    width: 100%;
+    background-color: #a29bfe;
+    margin: 2% auto;
+    animation: opac 5s;
 }
+
 .contact .form .contact-form {
-  animation: w3-spin 5s;
+    animation: w3-spin 5s;
 }
+
 .contact .form .contact-form form {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 2% 0;
-  background-color: #00b894;
-  border-radius: 0 20%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2% 0;
+    background-color: #00b894;
+    border-radius: 0 20%;
 }
+
 .contact .form .contact-form form div {
-  font-size: 1.6rem;
+    font-size: 1.6rem;
 }
+
 .contact .form .contact-form form div #fn {
-  padding: 1%;
-  font-size: 1.6rem;
+    padding: 1%;
+    font-size: 1.6rem;
 }
+
 .contact .form .contact-form form div #ln {
-  padding: 1%;
-  font-size: 1.6rem;
+    padding: 1%;
+    font-size: 1.6rem;
 }
+
 .contact .form .contact-form form div #email {
-  padding: 1%;
-  font-size: 1.6rem;
+    padding: 1%;
+    font-size: 1.6rem;
 }
+
 .contact .form .contact-form form #msg-area {
-  width: 100%;
-  padding: 2%;
+    width: 100%;
+    padding: 2%;
 }
+
 .contact .form .contact-form form #msg-area #msg {
-  width: 100%;
-  resize: none;
-  padding: 2%;
-  font-size: 1.8rem;
+    width: 100%;
+    resize: none;
+    padding: 2%;
+    font-size: 1.8rem;
 }
+
 .contact .form .contact-form form #btns {
-  width: 30%;
-  padding: 2%;
-  display: flex;
-  justify-content: space-around;
-  background-color: #a29bfe;
-  border-radius: 10% 30%;
+    width: 30%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #a29bfe;
+    border-radius: 10% 30%;
 }
+
 .contact .form .contact-form form #btns #submit {
-  padding: 5px 10px;
-  border-radius: 8px;
-  font-size: 1.6rem;
-  background-color: blue;
-  color: antiquewhite;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 1.6rem;
+    background-color: blue;
+    color: antiquewhite;
 }
+
 .contact .form .contact-form form #btns #submit:hover {
-  background-color: crimson;
-  color: royalblue;
+    background-color: crimson;
+    color: royalblue;
 }
+
 .contact .form .contact-form form #btns #reset {
-  padding: 5px 15px;
-  border-radius: 8px;
-  font-size: 1.6rem;
-  background-color: blue;
-  color: antiquewhite;
+    padding: 5px 15px;
+    border-radius: 8px;
+    font-size: 1.6rem;
+    background-color: blue;
+    color: antiquewhite;
 }
+
 .contact .form .contact-form form #btns #reset:hover {
-  background-color: crimson;
-  color: royalblue;
+    background-color: crimson;
+    color: royalblue;
 }
