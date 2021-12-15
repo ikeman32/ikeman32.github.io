@@ -1,0 +1,18 @@
+{
+    "name": "Dezuckit",
+    "version": "1.0.0",
+    "description": "Basic encryption and decryption",
+    "background": {
+        "serviceworker": ["js/zuck.js"]
+    },
+    "action": {
+        "default_popup": "dezuck.html",
+        "default_icon": {
+            "16": "images/zuck16.png",
+            "32": "images/zuck32.png",
+            "48": "images/zuck48.png",
+            "128": "images/zuck128.png"
+        }
+    },
+    "manifest_version": 3
+}
