@@ -1,39 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>DeZuckIt</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="apple180" sizes="180x180" href="images/apple180.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon16.png" />
+    <link rel="manifest" href="images/site.webmanifest" />
+  </head>
 
-</head>
-
-<body>
-    <div class="textArea">
-        <input type="text" id="keyword" placeholder="Enter keyword">
+  <body>
+    <div class="container">
+      <div class="textArea">
+        <input type="text" id="keyword" placeholder="Enter keyword" />
         <textarea id="textInput" cols="90" rows="10"></textarea>
-    </div>
-    <div class="buttonArea">
+      </div>
+      <div class="buttonArea">
         <center>
-            <table style="border: none;">
-                <tr>
-                    <td><button id="ZuckIt">ZuckIt</button></td>
-                    <td><button id="DeZuckIt">DezuckIt</button></td>
-                    <td><button id="clear">Clear</button></td>
-                    <td><button id="openFile">OpenFile</button></td>
-                    <td><button id="save">SaveToFile</button></td>
-                    <td><button id="about">About</button></td>
-                    <td><button id="howToUse">How to use</button></td>
-                </tr>
-            </table>
+          <table style="border: none">
+            <tr>
+              <td><button id="ZuckIt">ZuckIt</button></td>
+              <td><button id="DeZuckIt">DezuckIt</button></td>
+              <td><button id="clear">Clear</button></td>
+              <td><button id="openFile">OpenFile</button></td>
+              <td><button id="save">SaveToFile</button></td>
+              <td><button id="about">About</button></td>
+              <td><button id="howToUse">How to use</button></td>
+            </tr>
+          </table>
         </center>
-
+      </div>
+      <img src="images/logo.png" alt="logo" class="logo" />
     </div>
-
     <script src="js/zuck.js"></script>
-
-
-
-</body>
-
+  </body>
 </html>
