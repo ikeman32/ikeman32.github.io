@@ -35,11 +35,11 @@ body {
 }
 
 .logo {
-    top: 100px;
+    position: absolute;
+    bottom:20px;
     margin-left: 90%;
     margin-bottom: 1rem;
     max-width: fit-content;
     width: 20%;
     height: 20%;
-    z-index: -1;
 }
